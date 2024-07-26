@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+.bodyBavSection {
+  height: 100vh;
+  background-image: url("./images/backgroundImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(60%);
+}
+.navbar {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+}
+.navbarStyle {
+  background-color: none !important;
+  background: transparent !important;
+}
+.textLogo {
+  font-size: 2rem !important;
+  font-weight: bold;
+  color: black !important;
+}
+.texthead {
+  font-size: 1.1rem !important;
+  font-weight: bold;
+  color: black !important;
+}
+.nav-link {
+  color: black !important;
+}
+.nav-link:hover {
+  color: rgb(33, 59, 33);
+  background-color: white;
+}
+
+.fa-bars {
+  color: black !important;
+  background: transparent !important;
+  font-size: 3rem !important;
+}
+.navbar-nav li a {
+  float: right;
+  text-align: left;
+}
+/* .navbar {
+  background-image: linear-gradient(to right, gray, skyblue);
+} */
+.SectionBody {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.SectionBody h1 {
+  font-size: 3rem;
+}
+.About {
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#carouselExampleIndicators {
+  margin-top: -2rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+.container h6 {
+  color: coral !important;
+}
+.About .container p {
+  font-size: 2rem;
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+}
+.carousel-item img {
+  width: 100vw !important;
+  height: 80vh !important;
+}
+/* ....... Experience........ */
+#Experiences {
+  min-height: 110vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Experiences .container p {
+  font-size: 3rem;
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+}
+#Experiences .div {
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1070px) {
+  #Experiences .div {
+    flex-direction: column;
+  }
+}
+.cardDiv1 {
+  width: 20rem;
+  height: 70vh;
+  background-image: url("./images/pexels-ozgomz-925263.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+}
+.innercard1 {
+  position: relative;
+  border: 1px solid rgb(240, 209, 151);
+  min-height: 65vh;
+  min-width: 18rem;
+}
+.innercard1 p {
+  background-color: white;
+  height: 2rem;
+  width: 7rem;
+  margin: 0.5rem 0 0 0.5rem;
+}
+.innercard1 h5 {
+  position: absolute;
+  margin: 0.5rem 0 0 0.5rem;
+  bottom: 0;
+  color: white;
+  font-weight: bolder;
+}
+.cardDiv2 {
+  width: 20rem;
+  height: 70vh;
+  background-image: url("./images/slide1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.cardDiv3 {
+  width: 20rem;
+  height: 70vh;
+  background-image: url("./images/slide2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+}
+.cardDiv4 {
+  width: 20rem;
+  height: 70vh;
+  background-image: url("./images/slide3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.Activity {
+  min-height: 110vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Activity .container p {
+  font-size: 2rem;
+  font-family: "Rajdhani", sans-serif;
+}
+.Activity div {
+  display: flex;
+  gap: 2rem;
+}
+
+.cardDiv11 {
+  width: 20rem;
+  height: 70vh;
+  background-image: url("./images/spa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+}
+.cardDiv22 {
+  width: 20rem;
+  height: 70vh;
+  background-image: url("./images/summer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+}
+.cardDiv33 {
+  width: 20rem;
+  height: 70vh;
+  background-image: url("./images/Dining.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+}
+.CardModelText {
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.cardmodelDiv {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 1070px) {
+  .cardmodelDiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* ................. */
+.Contact {
+  min-height: 100vh;
+  height: auto;
+  background-image: url("./images/hotel.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.uppderLayer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Contact .uppderLayer {
+  color: #fff;
+  padding: 1rem;
+}
+.Contact::before {
+  content: "";
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+}
+.Contact .uppderLayer {
+  position: relative;
+  z-index: 20;
+}
+.container h6 {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+.container p {
+  font-size: 2rem;
+}
+.ConatctDivs {
+  width: 20rem;
+}
+.ConatctDivs p {
+  font-size: 0.8rem;
+}
+.ConatctDivs h1 {
+  font-size: 1rem;
+}
+.icons i {
+  color: white;
+  font-size: 2rem;
+}
+.lowerDiv {
+  display: flex;
+  gap: 2rem;
+}
+.Rigesterbtn {
+  outline: none;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+}
+.home {
+  background-color: white;
+}
+/* .active {
+  color: red !important;
+  background-color: #fff;
+} */
+.bodyBavSection .navbar .nav-link {
+  background-color: aqua !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+.bodyBavSection .navbar .active {
+  color: rgb(221, 42, 182) !important;
+}
